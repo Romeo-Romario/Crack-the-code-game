@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crack code game</title>
+    <link rel="stylesheet" href="crack.css">
+    <link rel="stylesheet" href="crack_panel.css">
+    
+</head>
+<body>
+    <header>
+        Crack the password
+    </header>
+    <section>
+        <div class="container">
+            <div class="small_container">
+                <div class="small_container_text" id="guiding_text">The code is three digit numbers</div>
+                <button class="lock_button disabled" id="lock_button" disabled> lock button </button>
+                <div id="top">
+                    
+                </div>
+                <button class="check_button" id="check">Check</button>
+
+            </div>
+            <div id="bottom">
+                <div class="list colour-div" draggable="true" id="10"></div>
+                <div class="list colour-div" draggable="true" id="11"></div>
+                <div class="list colour-div" draggable="true" id="12"></div>
+                <div class="list colour-div" draggable="true" id="13"></div>
+                <div class="list colour-div" draggable="true" id="14"></div>
+                <div class="list colour-div" draggable="true" id="15"></div>
+                <div class="list colour-div" draggable="true" id="16"></div>
+                <div class="list colour-div" draggable="true" id="17"></div>
+                <div class="list colour-div" draggable="true" id="18"></div>
+                <div class="list colour-div" draggable="true" id="19"></div>
+            </div>
+        </div>
+    </section>
+    <section class="first_row">
+        <div class="column">
+            <div class="flex-container">
+                <div class="colour-div" id="211"></div>
+                <div class="colour-div" id="212"></div>
+                <div class="colour-div" id="213"></div>
+            </div>
+            <p id="21"></p>
+        </div>
+        <div class="column">
+            <div class="overlay" id="overlay"></div>
+            <div class="popup" id = "popup1">
+                <img src="./images/404-tick.png">
+                <h2>You did great</h2>
+                <p>You guessed the code <br> Congratulations</p>
+                <button type="button" id="closePopup1">OK</button>
+            </div>
+            <div class="popup2" id = "popup2">
+                <img src="./images/404-tack.jpg">
+                <h2>You lost :&#40;</h2>
+                <h3 id="right_code"></h3>
+                <p>Was the right combination</p>
+                <button type="button" id="closePopup2">OK</button>
+            </div>
+            <div class="flex-container">
+                <div class="colour-div" id="221"></div>
+                <div class="colour-div" id="222"></div>
+                <div class="colour-div" id="223"></div>
+            </div>
+            <p id="22"></p>
+        </div>
+        <div class="column">
+            <div class="flex-container">
+                <div class="colour-div" id="231"></div>
+                <div class="colour-div" id="232"></div>
+                <div class="colour-div" id="233"></div>
+            </div>
+            <p id="23"></p>
+        </div>
+    </section>
+    <section class="first_row">
+        <div class="column bot_left">
+            <div class="flex-container">
+                <div class="colour-div" id="311"></div>
+                <div class="colour-div" id="312"></div>
+                <div class="colour-div" id="313"></div>
+            </div>
+            <p id="31"></p>
+        </div>
+        <div class="column">
+            <div class="flex-container">
+                <div class="colour-div" id="321"></div>
+                <div class="colour-div" id="322"></div>
+                <div class="colour-div" id="323"></div>
+            </div>
+            <p id="32"></p>
+        </div>
+    </div>
+</section>
+</body>
+<!-- <script src="allJS/crack_box.js" type="module"></script> -->
+<script src="allJS/main.js" type="module"></script>
+<script src = "allJS/pop_up_window.js" type="module"></script>
+<!-- <script src="allJS/crack.js"></script> -->
+</html>
