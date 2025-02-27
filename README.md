@@ -1,4 +1,4 @@
-## 🎯 Crack the Code - A Mind-Bending Logic Game!  
+## 🎯 Crack the Code - Logic Game!  
 
 ## 🏆 My First Ever Website!  
 
