@@ -50,8 +50,4 @@ This logic ensures a **fast and effective** solution while keeping the challenge
 🔗 **Play the game now on my GitHub Pages repository!**  
 🕵️‍♂️ Can you crack the code? Good luck! 🍀  
 
----
 
-This version makes the README more visually appealing while keeping it easy to read. I’ve used **bold, emojis, tables, and colors** (where applicable) to enhance clarity.  
-
-Would you like me to tweak anything further? 😊
